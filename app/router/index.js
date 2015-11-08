@@ -1,7 +1,7 @@
 /* global analytics */
 
 import riot from 'riot'
-import grapnel from 'grapnel'
+import Grapnel from 'grapnel'
 import thunk from 'redux-thunk'
 import logger from 'redux-logger'
 import { createStore, applyMiddleware } from 'redux'
@@ -10,7 +10,7 @@ import '../tags/app.tag'
 
 const middleware = applyMiddleware(thunk, logger)(createStore)
 const store = middleware(reducers)
-const router = new grapnel({
+const router = new Grapnel({
   hashchange: true
 })
 
