@@ -1,5 +1,5 @@
-# Zesty Skeleton Application
-_We develop client applications as view layer implementations that work with Zesty APIs to power themselves._
+# notes
+Little app for keeping speaker notes
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ Run the application locally with this command. Accepts cli arguments `env`
 
 	$bash build.sh --env development
 
-This bash script orchestrates all build steps irregardless of language. __If adding a new build step, dependency or language it must ultimately be configured to run via this bash script.__ 
+This bash script orchestrates all build steps irregardless of language. __If adding a new build step, dependency or language it must ultimately be configured to run via this bash script.__
 
 
 ## Developing
@@ -49,7 +49,7 @@ We've chosen [riotjs][riot] to be our view layer. Riot components should be writ
 
 Services are implemented from a delegate prototype `Service` object. We write a service implementation for each of our micro services.
 
-### Dependencies 
+### Dependencies
 
 - moment (Time Normalizing Lib)
 
